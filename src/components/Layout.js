@@ -31,7 +31,7 @@ import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 const navigation = [
   { name: 'Överblick', href: '#', icon: HomeIcon, current: true },
   { name: 'Bokningar', href: '#', icon: UsersIcon, current: false },
-  { name: 'Restaurang', href: '#', icon: FolderIcon, current: false },
+  { name: 'Restaurang', href: '/restaurang', icon: FolderIcon, current: false },
   { name: 'Bryggeri', href: '#', icon: CalendarIcon, current: false },
   { name: 'Catering', href: '#', icon: DocumentDuplicateIcon, current: false },
   { name: 'Upplevelser', href: '#', icon: ChartPieIcon, current: false },
